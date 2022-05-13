@@ -1,0 +1,43 @@
+div{
+    border: 1px solid black;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row no-wrap;
+    background-color:lightgrey;
+}
+.flex-container>div{
+    background-color:grey;
+    margin: 10px;
+    padding: 5px;
+}
+.in-flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.in1{
+    flex-grow: 1;
+}
+.a1{
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+}
+.a2{
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+}
+.a3{
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+}
+.in2{
+    flex-grow: 9;
+    padding: 10px;
+}
+
+.in2 > div {
+    border: none;
+}
