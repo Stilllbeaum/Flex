@@ -1,0 +1,144 @@
+div {
+    border: 1px solid black;
+}
+
+.icon-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #fcecdc;
+}
+
+.a1 {
+    padding: 20px;
+}
+
+.icon-bar {
+    flex-grow: 9;
+    padding: 10px;
+    flex-direction: row-reverse;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+.active1 {
+    margin: 10px 20px 10px 20px;
+    /*color: ;*/
+}
+
+.active2 {
+    margin: 10px 20px 10px 20px;
+}
+
+.active3 {
+    margin: 10px 20px 10px 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.topic {
+    display: flex;
+    flex-direction: row;
+}
+
+.data {
+    display: flex;
+}
+
+.content {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.topic {
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.footer {
+    margin: 0 50px 0 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.data {
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 60px;
+    justify-content: space-around;
+    margin: 65px;
+    padding: 10px;
+
+}
+
+.square1 {
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.square2 {
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.square3 {
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.square4 {
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.inform1 {
+    margin: 10px;
+}
+
+.inform2 {
+    margin: 10px;
+}
+
+.inform3 {
+    margin: 10px;
+}
+
+.inform4 {
+    margin: 10px;
+}
+
+.img1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.img2 {
+    margin: 10px;
+    text-align: center;
+}
+
+.img3 {
+    margin: 10px;
+    text-align: center;
+}
+
+.img4 {
+    margin: 10px;
+    text-align: center;
+}
+
