@@ -1,11 +1,10 @@
-div {
-    border: 1px solid black;
-}
+
 
 .icon-bar {
     display: flex;
     flex-direction: row;
-    background-color: #fcecdc;
+    background-color: #eeefea;
+    
 }
 
 .a1 {
@@ -22,6 +21,7 @@ div {
     display: flex;
     flex-direction: row;
     font-size: 25px;
+    background-color: #eeefea;
 }
 
 .active1 {
@@ -54,18 +54,21 @@ div {
 .content {
     flex-direction: column;
     padding: 20px;
+    background-color: #cddcdf;
 }
 
 .topic {
     margin: 10px;
     padding: 10px;
     justify-content: center;
+    color: #424e6a;
 }
 
 .footer {
-    margin: 0 50px 0 50px;
+    margin: 10px 50px 0 50px;
     padding: 10px;
     text-align: center;
+    width: 95%;
 }
 
 .data {
@@ -75,6 +78,7 @@ div {
     justify-content: space-around;
     margin: 65px;
     padding: 10px;
+    
 
 }
 
@@ -82,44 +86,48 @@ div {
     width: 250px;
     height: 300px;
     margin: 20px;
-    background-color: aquamarine;
+    background-color: #527590;
 }
 
 .square2 {
     width: 250px;
     height: 300px;
     margin: 20px;
-    background-color: aquamarine;
+    background-color: #527590;
 }
 
 .square3 {
     width: 250px;
     height: 300px;
     margin: 20px;
-    background-color: aquamarine;
+    background-color: #527590;
 }
 
 .square4 {
     width: 250px;
     height: 300px;
     margin: 20px;
-    background-color: aquamarine;
+    background-color: #527590;
 }
 
 .inform1 {
     margin: 10px;
+    color: white;
 }
 
 .inform2 {
     margin: 10px;
+    color: white;
 }
 
 .inform3 {
     margin: 10px;
+    color: white;
 }
 
 .inform4 {
     margin: 10px;
+    color: white;
 }
 
 .img1 {
@@ -141,4 +149,12 @@ div {
     margin: 10px;
     text-align: center;
 }
-
+.active1{
+    color: #fcb293;
+}
+.active2{
+    color: #fcb293;
+}
+.active3{
+    color: #fcb293;
+}
